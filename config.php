@@ -1,6 +1,6 @@
 <?php
 
 //SITE GLOBAL CONFIGURATION
-$email = "yourmail@here.com";   //<-- Your email
+$email = "csc_wcso@wellesley.edu";   //<-- Your email
 
 ?>
