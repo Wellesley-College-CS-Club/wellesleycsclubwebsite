@@ -315,18 +315,18 @@ h1.big-title
 
 /* SERVICE SECTION */
 
-#services
+#resource
 {
     background-color: #221c5a;
     z-index: 9;
 }
 
-#services .section-title-holder
+#resource .section-title-holder
 {
     background-color: #32DB8A
 }
 
-#services .section-title-holder span
+#resource .section-title-holder span
 {
     color: #55B286;
 }
