@@ -313,22 +313,22 @@ h1.big-title
 
 
 
-/* SERVICE SECTION */
+/* RESOURCE SECTION */
 
 #resource
 {
     background-color: #221c5a;
-    z-index: 9;
+    z-index: 8;
 }
 
 #resource .section-title-holder
 {
-    background-color: #32DB8A
+    background-color: rgb(255, 186, 66);
 }
 
 #resource .section-title-holder span
 {
-    color: #55B286;
+    color: #e3a436;
 }
 
 .service-holder 
@@ -363,26 +363,26 @@ h1.big-title
 
 
 
-/* PORTFOLIO SECTION */
+/* MORE SECTION */
 
-#portfolio
+#more
 {
     background-color: #221C5A; 
     /* background-image: url("demo-images/background_img_02.jpg");  */
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto;
-    z-index: 8;
+    z-index: 7;
 }
 
-#portfolio .section-title-holder
+#more .section-title-holder
 {
-    background-color: rgb(255, 186, 66);
+    background-color: #e64b77;
 }
 
-#portfolio .section-title-holder span
+#more .section-title-holder span
 {
-    color: #e3a436;
+    color: #b24564;
 }
 
 .page-template-page-portfolio .section
@@ -569,17 +569,17 @@ div.pp_default .pp_loaderIcon
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
-    z-index: 7;
+    z-index: 6;
 }
 
 #about .section-title-holder
 {
-    background-color: #e64b77;
+    background-color: #32DB8A;
 }
 
 #about .section-title-holder span
 {
-    color: #b24564;
+    color: #55B286;
 }
 
 #about .section-content-holder
@@ -618,7 +618,7 @@ div.pp_default .pp_loaderIcon
     line-height: 16px;
     font-size: 14px;
     padding-bottom: 50px;
-    color: #ee87a4;
+    color: #32db89;
     letter-spacing: 4px;
 }
 
@@ -644,7 +644,7 @@ div.pp_default .pp_loaderIcon
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
-    z-index: 6;
+    z-index: 9;
 }
 
 .blog-item-holder
