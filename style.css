@@ -1350,7 +1350,13 @@ footer
     {
         right: 50%;
         right: calc(50% - 30px);    
-    }    
+    }
+    
+    .image-slider-wrapper.service a.image_slider_next 
+    {
+        left: auto;
+        right: 15px;
+    }
 
 }
 
@@ -1402,7 +1408,8 @@ footer
     .image-slider-wrapper.service a.image_slider_next 
     {
         top: -89px;
-        right: 0;
+        right: -10px;
+        left: auto;
     }
 
     .section
