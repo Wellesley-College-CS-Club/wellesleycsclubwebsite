@@ -1025,9 +1025,9 @@ p.custom-field-class
 
 .contact-form input[type=submit]
 {	
-    color: #e54b76;
+    color: #e3a436;
     display: inline-block;
-    border: 2px solid #e54b76;
+    border: 2px solid #e3a436;
     text-align: center;
     padding: 12px 0px;
     cursor: pointer;
@@ -1045,7 +1045,7 @@ p.custom-field-class
 .contact-form input[type=submit]:hover
 {
     color: white;
-    background-color: #e54b76;
+    background-color: #e3a436;
 }
 
 div.contact-form-response-output
