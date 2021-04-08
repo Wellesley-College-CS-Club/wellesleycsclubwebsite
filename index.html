@@ -45,7 +45,7 @@
                     <!-- <li><a href="#more">More</a></li> -->
                     <li><a href="#about">About</a></li>
                     <!-- <li><a href="#video">Video</a></li> -->
-                    <!-- <li><a href="#skills">Skills</a></li> -->
+                    <li><a href="#skills">QOW</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -731,6 +731,54 @@
             </div>
         </div>
 
+        <div id="skills" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="section-num">
+                        <span>04</span>
+                    </div>
+                    <h2 class="entry-title">QOW</h2>
+                </div>
+                <div class="section-content-holder left">
+                    <div class="content-wrapper">
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:75%;">
+                                <div class="progress_bar_title" style="color: #55B286">THIS WEEK'S PROBLEM</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#32DB8A;"></div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            Given an array of integers <code>nums</code> and an integer <code>target</code>, return indices of the two numbers such that they add up to <code>target</code>.</br></br>
+
+                            You may assume that each input would have <b>exactly one solution</b>, and you may not use the same element twice.<br></br>
+                            
+                            You can return the answer in any order. 
+                        </div>
+                        <br>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:75%;">
+                                <div class="progress_bar_title" style="color: #B24564">SAMPLE SOLUTION</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#E74C78;"></div>
+                            </div>
+                        </div>
+                        <p>
+                            <b>Python:</b>
+                        </p>
+                        <pre>
+def twoSum(self, nums, target):
+    d = {}
+    for i, n in enumerate(nums):
+        m = target - n
+        if m in d:
+            return [d[m], i]
+        else:
+            d[n] = i
+                        </pre>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
         <!-- About -->
         <!-- <div id="about" class="section">
             <div class="block content-1170 center-relative">
@@ -889,15 +937,15 @@
         <!-- Contact -->
         <div id="contact" class="section">
             <div class="block content-1170 center-relative">
-                <div class="section-title-holder right">
+                <div class="section-title-holder left">
                     <div class="section-num">
                         <span>
-                            04
+                            05
                         </span>
                     </div>
                     <h2 class="entry-title">Contact</h2>
                 </div>
-                <div class="section-content-holder left">
+                <div class="section-content-holder right">
                     <div class="content-wrapper">
                         <div class="one_half ">
                             <p>Enrich Wellesley community's Computer Science experience beyond the CS curriculum.</p>

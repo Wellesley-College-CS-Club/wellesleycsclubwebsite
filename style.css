@@ -7,6 +7,7 @@ body
     color: #23214c;    
 }
 
+
 body a
 {
     text-decoration: none;
@@ -221,6 +222,7 @@ body a:hover
     line-height: 100%;
     text-transform: uppercase;
     margin-top: -75px;
+    margin-bottom: 30px;
     color: #221c5a;    
 }
 
@@ -247,6 +249,13 @@ body a:hover
 .section:last-of-type .extra-content-left, .section:last-of-type .extra-content-right, .section:last-of-type .extra-content-full-width
 {
     padding-bottom: 0;
+}
+
+.small-header
+{
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 /* END GENERAL SECTION */
@@ -817,7 +826,15 @@ a.video-popup-holder:hover img.popup-play
     background-size: 100%; 
     z-index: 4;
 }
+#skills .section-title-holder
+{
+    background-color: rgb(255, 186, 66);
+}
 
+#skills .section-title-holder span
+{
+    color: #e3a436;
+}
 .progress_bar 
 {
     margin-bottom: 15px;
@@ -835,7 +852,7 @@ a.video-popup-holder:hover img.popup-play
 .progress_bar_field_holder:hover .progress_bar_title
 {
     left: 10px;
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 
 .progress_bar_field_holder:hover .progress_bar_percent_text
@@ -852,11 +869,17 @@ a.video-popup-holder:hover img.popup-play
     left: -11px;
     font-weight: bold;
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
 }
 
+@media screen and (max-width: 800px) {
+    .progress_bar_title {
+        font-size: 30px;
+        left: 0px;
+    }
+}
 .progress_bar_percent_text
 {
     position: absolute;
@@ -872,13 +895,23 @@ a.video-popup-holder:hover img.popup-play
 
 .progress_bar_field_perecent 
 {
-    height: 59px;    
+    height: 10px;    
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
-
+.question
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #23214c;
+    overflow-wrap: break-word;
+    width: 100%; 
+    word-wrap: break-word;   
+}
 /* END SKILLS SECTION */
 
 
