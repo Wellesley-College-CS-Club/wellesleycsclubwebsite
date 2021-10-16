@@ -382,7 +382,7 @@ var SendMail = function () {
                         error = "Unespected error, please try again later.";
                 }
                 if (error) {
-                    alert(error);
+                    alert(xhr.status);
                 }
             }
         });
